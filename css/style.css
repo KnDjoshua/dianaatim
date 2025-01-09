@@ -373,10 +373,11 @@
 .service {
     position: relative;
     overflow: hidden;
-    background-image: url(/bukoto\ \(1\).avif);
+    background-image: url(/kitchen.avif);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .service::before {
