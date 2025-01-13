@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>WaterLand - Water Park Website Template</title>
+    <title>prostaytransfers.</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -14,7 +14,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap"
         rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- Icon Font Stylesheet -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -47,8 +47,8 @@
     <div class="container-fluid nav-bar sticky-top px-4 py-2 py-lg-0">
         <nav class="navbar navbar-expand-lg navbar-light">
             <a href="" class="navbar-brand p-0">
-                <h1 class="display-6 text-dark"><img style="border-radius: 50%;"
-                        src="/WhatsApp Image 2025-01-07 at 18.58.12_260760bb.jpg" alt="diana">dianaatim</h1>
+                <h1 style="color: #FF5A5F !important;" class="display-6 text-dark"><img style="border-radius: 50%;"
+                        src="/dianalogo.jpg" alt="diana">dianaatim</h1>
                 <!-- <img src="img/logo.png" alt="Logo"> -->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -101,9 +101,8 @@
         </div>
     </div>
     <!-- Header End -->
-
     <!-- Service Start -->
-    <div class="container-fluid service py-5">
+    <div id="service" class="container-fluid service py-5">
         <div class="container service-section py-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Our Service</h4>
@@ -142,12 +141,19 @@
                     <div class="service-item p-4">
                         <div class="service-content">
                             <div class="mb-4">
-                                <i class="fas fa-home fa-4x"></i>
+                                <i class="fa-4x bi bi-car-front"></i> <br>
                             </div>
                             <a href="#" class="h4 d-inline-block mb-3">Airport Pickup</a>
-                            <p class="mb-0">Arrive stress-free and let us take you from the airport to the destination
-                                we've prepared for you.
+
+                            <p class="mb-0">Arrive stress-free and let us take you from the airport to <br>the
+                                destination
+                                we've <br> prepared for you.
                             </p>
+                            <p class="h4 d-inline-block mb-3" style=" color: #FF5A5F;">40.57$ </p>
+                            <a style="background-color: #FF5A5F !important;" class="btn btn-primary rounded-pill"
+                                data-bs-toggle="modal" href="#exampleModalToggle" role="button">Arrange Your
+                                Transfer</a>
+
                         </div>
                     </div>
                 </div>
@@ -155,11 +161,18 @@
                     <div class="service-item p-4">
                         <div class="service-content">
                             <div class="mb-4">
-                                <i class="fas fa-utensils fa-4x"></i>
+                                <i class="fa-4x bi bi-car-front"></i>
                             </div>
                             <a href="#" class="h4 d-inline-block mb-3">Airport Drop-off</a>
                             <p class="mb-0">Ensure timely arrival at the airport with our reliable drop-off services.
                             </p>
+                            <p class="h4 d-inline-block mb-3" style=" color: #FF5A5F;">40.57$ </p>
+
+
+                            <a style="background-color: #FF5A5F !important;" class="btn btn-primary rounded-pill"
+                                data-bs-toggle="modal" href="#exampleModalToggle2" role="button">Arrange Your
+                                Transfer</a>
+
                         </div>
                     </div>
                 </div>
@@ -167,12 +180,17 @@
                     <div class="service-item p-4">
                         <div class="service-content">
                             <div class="mb-4">
-                                <i class="fas fa-door-closed fa-4x"></i>
+                                <i class="fa-4x bi bi-car-front"></i>
                             </div>
                             <a href="#" class="h4 d-inline-block mb-3">Round-trip Services</a>
                             <p class="mb-0">Book both pickup and drop-off for a complete and seamless travel
                                 <br>experience.
                             </p>
+                            <p class="h4 d-inline-block mb-3" style=" color: #FF5A5F;">83.83$</p>
+
+                            <a style="background-color: #FF5A5F !important;" class="btn btn-primary rounded-pill"
+                                data-bs-toggle="modal" href="#exampleModalToggle3" role="button">Arrange Your
+                                Transfer</a>
                         </div>
                     </div>
                 </div>
@@ -180,12 +198,15 @@
                     <div class="service-item p-4">
                         <div class="service-content">
                             <div class="mb-4">
-                                <i class="fas fa-swimming-pool fa-4x"></i>
+
+                                <i class="fa-4x bi bi-house-heart"></i>
                             </div>
                             <a href="#" class="h4 d-inline-block mb-3">Stay With Us</a>
                             <p class="mb-0">Comfortable Rooms,
                                 Prime Locations, Affordable Rates, Flexible Booking
                             </p>
+                            <a style="background-color: #FF5A5F !important;" class="btn btn-primary rounded-pill"
+                                data-bs-toggle="modal" role="button">Check On AirBnB</a>
                         </div>
                     </div>
                 </div>
@@ -193,6 +214,218 @@
         </div>
     </div>
     <!-- Service End -->
+
+
+
+
+
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel">Airport Pickup</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="https://formsubmit.co/oneg98183@gmail.com" method="POST">
+
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <input type="text" class="form-control border-0 py-2" name="NAME" id="name"
+                                    placeholder="Your Name">
+                            </div>
+                            <div class="col-12 col-xl-6">
+                                <input type="email" class="form-control border-0 py-2" name="EMAIL" id="email"
+                                    placeholder="Your Email">
+                            </div>
+                            <div class="col-12 col-xl-6">
+                                <input type="phone" class="form-control border-0 py-2" name="PHONE NUMBER" id="phone"
+                                    placeholder="Phone">
+                            </div>
+                            <div class="col-12">
+                                <select name="SELECTED" class="form-select border-0 py-2"
+                                    aria-label="Default select example">
+                                    <option selected>Pickup Only</option>
+                                    <!-- <option value="Pickup Only"><button id="myBtn">Pickup Only</button>
+                                    </option>
+                                    <option value="Drop-off Only">Drop-off Only</option>
+                                    <option value="Both Pickup and Drop-off Only">Both Pickup and Drop-off
+                                    </option> -->
+                                </select>
+                            </div>
+
+                            <div class="col-12 col-xl-6">
+                                <input class="form-control border-0 py-2" placeholder="DROP-OFF DATE" type="date"
+                                    name="PICKUP DATE" id="quality-toDate">
+                            </div>
+
+                            <div class="col-12">
+                                <input type="number" class="form-control border-0 py-2" name="NUMBER OF GUESTS"
+                                    id="number" placeholder="Guest">
+                            </div>
+                            <input type="hidden" name="_next" value="https://flutterwave.com/pay/5uxfzftrjx5h">
+                            <input type="hidden" name="_webhook"
+                                value="https://prostaytransfers.dianaatim.com/attraction.html">
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary w-100 py-2 px-5">Book
+                                    Now</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal"
+                        data-bs-dismiss="modal">I Want Both Pickup and Drop-off</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel">Airport Drop-off</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+
+
+                    <form action="https://formsubmit.co/oneg98183@gmail.com" method="POST">
+
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <input type="text" class="form-control border-0 py-2" name="NAME" id="name"
+                                    placeholder="Your Name">
+                            </div>
+                            <div class="col-12 col-xl-6">
+                                <input type="email" class="form-control border-0 py-2" name="EMAIL" id="email"
+                                    placeholder="Your Email">
+                            </div>
+                            <div class="col-12 col-xl-6">
+                                <input type="phone" class="form-control border-0 py-2" name="PHONE NUMBER" id="phone"
+                                    placeholder="Phone">
+                            </div>
+                            <div class="col-12">
+                                <select name="SELECTED" class="form-select border-0 py-2"
+                                    aria-label="Default select example">
+                                    <option selected>Both Pickup and Drop-off</option>
+                                    <!-- <option value="Pickup Only"><button id="myBtn">Pickup Only</button>
+                                    </option>
+                                    <option value="Drop-off Only">Drop-off Only</option>
+                                    <option value="Both Pickup and Drop-off Only">Both Pickup and Drop-off
+                                    </option> -->
+                                </select>
+                            </div>
+                            <p>Set Pickup and Drop-off Dates</p>
+                            <div class="col-12 col-xl-6">
+                                <!-- <input class="form-control border-0 py-2" name="DATE" type="datetime-local"> -->
+                                <input class="form-control border-0 py-2" placeholder="PICKUP DATE" type="date"
+                                    name="PICKUP DATE" id="quality-fromdate">
+                            </div>
+                            <div class="col-12 col-xl-6">
+                                <input class="form-control border-0 py-2" placeholder="DROP-OFF DATE" type="date"
+                                    name="DROP=OFF DATE" id="quality-toDate">
+                            </div>
+
+                            <div class="col-12">
+                                <input type="number" class="form-control border-0 py-2" name="NUMBER OF GUESTS"
+                                    id="number" placeholder="Guest">
+                            </div>
+                            <input type="hidden" name="_next" value="     https://flutterwave.com/pay/eelukbxlt5dq">
+                            <input type="hidden" name="_webhook"
+                                value="https://prostaytransfers.dianaatim.com/attraction.html">
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary w-100 py-2 px-5">Book
+                                    Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal"
+                        data-bs-dismiss="modal">I Want Both Pickup and Drop-off</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel2">Pickup And Drop-off</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+
+                    <form action="https://formsubmit.co/oneg98183@gmail.com" method="POST">
+
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <input type="text" class="form-control border-0 py-2" name="NAME" id="name"
+                                    placeholder="Your Name">
+                            </div>
+                            <div class="col-12 col-xl-6">
+                                <input type="email" class="form-control border-0 py-2" name="EMAIL" id="email"
+                                    placeholder="Your Email">
+                            </div>
+                            <div class="col-12 col-xl-6">
+                                <input type="phone" class="form-control border-0 py-2" name="PHONE NUMBER" id="phone"
+                                    placeholder="Phone">
+                            </div>
+                            <div class="col-12">
+                                <select name="SELECTED" class="form-select border-0 py-2"
+                                    aria-label="Default select example">
+                                    <option selected>Both Pickup and Drop-off</option>
+                                    <!-- <option value="Pickup Only"><button id="myBtn">Pickup Only</button>
+                                    </option>
+                                    <option value="Drop-off Only">Drop-off Only</option>
+                                    <option value="Both Pickup and Drop-off Only">Both Pickup and Drop-off
+                                    </option> -->
+                                </select>
+                            </div>
+
+                            <div class="col-12 col-xl-6">
+                                <input class="form-control border-0 py-2" placeholder="DROP-OFF DATE" type="date"
+                                    name="PICKUP DATE" id="quality-toDate">
+                            </div>
+
+                            <div class="col-12">
+                                <input type="number" class="form-control border-0 py-2" name="NUMBER OF GUESTS"
+                                    id="number" placeholder="Guest">
+                            </div>
+                            <input type="hidden" name="_next" value="https://flutterwave.com/pay/n8lwnr6k10ch">
+                            <input type="hidden" name="_webhook"
+                                value="https://prostaytransfers.dianaatim.com/attraction.html">
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary w-100 py-2 px-5">Book
+                                    Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"
+                        data-bs-dismiss="modal">Airport Pickup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 
     <!-- Ticket Packages Start -->
@@ -549,7 +782,7 @@
                     <div class="footer-item">
                         <a href="index.html" class="p-0">
                             <h4 class="text-white mb-4"><img style="border-radius: 50%;" width="10%"
-                                    src="/WhatsApp Image 2025-01-07 at 18.58.12_260760bb.jpg" alt="dianaatim"> dianaatim
+                                    src="/dianalogo.jpg" alt="dianaatim"> dianaatim
                             </h4>
                             <!-- <img src="img/logo.png" alt="Logo"> -->
                         </a>
@@ -562,10 +795,23 @@
                             <i class="fas fa-envelope text-primary me-3"></i>
                             <p class="text-white mb-0">info@dianaatim.com</p>
                         </div>
+
+
                         <div class="d-flex align-items-center">
-                            <i class="fa fa-phone-alt text-primary me-3"></i>
-                            <p class="text-white mb-0">+256 762 636518 or +256 760 447 637</p><br>
+                            <a class="text-white mb-0" href="tel:+256 762 636518">
+                                <p>
+                                    <i class="fa fa-phone-alt text-primary me-3"></i>
+
+                                    +256 762 636518 /
+                                    <a class="text-white mb-0" href="tel:+256 760 447 637"> +256 760 447 637
+
+                                </p>
+                            </a>
+
+                            </a>
                         </div>
+
+
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-2">
@@ -597,20 +843,25 @@
                         <div class="opening-date mb-3 pb-3">
                             <div class="opening-clock flex-shrink-0">
                                 <h6 class="text-white mb-0 me-auto">Monday - Friday:</h6>
-                                <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 11:00 AM - 16:00 PM</p>
+                                <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 06:00 AM - 23:00 PM</p>
                             </div>
                             <div class="opening-clock flex-shrink-0">
                                 <h6 class="text-white mb-0 me-auto">Satur - Sunday:</h6>
-                                <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 09:00 AM - 17:00 PM</p>
+                                <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 06:00 AM - 23:00 PM</p>
                             </div>
                             <div class="opening-clock flex-shrink-0">
                                 <h6 class="text-white mb-0 me-auto">Holiday:</h6>
-                                <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 09:00 AM - 17:00 PM</p>
+                                <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 06:00 AM - 23:00 PM</p>
                             </div>
                         </div>
                         <div>
                             <p class="text-white mb-2">Payment Accepted</p>
                             <img src="img/payment.png" class="img-fluid" alt="Image">
+                        </div>
+                        <div>
+                            <p class="text-white mb-2">Partners</p>
+                            <img style="border-radius: 50%; width: 10%;" src="/airbnb.png" class="img-fluid"
+                                alt="Image">
                         </div>
                     </div>
                 </div>
