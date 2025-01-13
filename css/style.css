@@ -779,7 +779,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(/bukoto\ \(1\).avif);
+    background-image: url(/bukoto\ \(1\).avif) ! important;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
