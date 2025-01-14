@@ -259,14 +259,42 @@
                                 </select>
                             </div>
 
-                            <div class="col-12 col-xl-6">
-                                <input class="form-control border-0 py-2" placeholder="DROP-OFF DATE" type="date"
-                                    name="PICKUP DATE" id="quality-toDate">
+
+
+
+
+                            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+                            <div class="col-12">
+
+                                <input type="date" class="form-control border-0 py-2" id="dates" name="PICKUP"
+                                    placeholder="Select pickup date" readonly>
+
+
                             </div>
+                            <!-- Include Flatpickr JavaScript -->
+                            <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+                            <script>
+                                // Initialize Flatpickr
+                                flatpickr("#dates", {
+                                    mode: "multiple", // Allow multiple date selection
+                                    dateFormat: "Y-m-d", // Format for the selected dates
+                                    minDate: "today" // Disable past dates
+                                });
+                            </script>
+
+
+
+
+                            <!-- <div class="col-12 col-xl-6">
+                                <input type="date" class="form-control border-0 py-2" id="dates"
+                                    name="PICKUP and DROP-OFF DATE" placeholder="Select pickup and drop-off dates"
+                                    readonly>
+                            </div> -->
 
                             <div class="col-12">
                                 <input type="number" class="form-control border-0 py-2" name="NUMBER OF GUESTS"
-                                    id="number" placeholder="Guest">
+                                    id="number" placeholder="Number Of Guests">
                             </div>
                             <input type="hidden" name="_next" value="https://flutterwave.com/pay/r54d2etz5vxi">
                             <input type="hidden" name="_webhook"
@@ -320,7 +348,7 @@
                             <div class="col-12">
                                 <select name="SELECTED" class="form-select border-0 py-2"
                                     aria-label="Default select example">
-                                    <option selected>Both Pickup and Drop-off</option>
+                                    <option selected>Drop-off Only</option>
                                     <!-- <option value="Pickup Only"><button id="myBtn">Pickup Only</button>
                                     </option>
                                     <option value="Drop-off Only">Drop-off Only</option>
@@ -328,20 +356,30 @@
                                     </option> -->
                                 </select>
                             </div>
-                            <p>Set Pickup and Drop-off Dates</p>
-                            <div class="col-12 col-xl-6">
-                                <!-- <input class="form-control border-0 py-2" name="DATE" type="datetime-local"> -->
-                                <input class="form-control border-0 py-2" placeholder="PICKUP DATE" type="date"
-                                    name="PICKUP DATE" id="quality-fromdate">
+
+                            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+                            <div class="col-12">
+
+                                <input type="date" class="form-control border-0 py-2" id="dates" name="DROP-OFF"
+                                    placeholder="Select drop-off date" readonly>
+
+
                             </div>
-                            <div class="col-12 col-xl-6">
-                                <input class="form-control border-0 py-2" placeholder="DROP-OFF DATE" type="date"
-                                    name="DROP=OFF DATE" id="quality-toDate">
-                            </div>
+                            <!-- Include Flatpickr JavaScript -->
+                            <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+                            <script>
+                                // Initialize Flatpickr
+                                flatpickr("#dates", {
+                                    mode: "multiple", // Allow multiple date selection
+                                    dateFormat: "Y-m-d", // Format for the selected dates
+                                    minDate: "today" // Disable past dates
+                                });
+                            </script>
 
                             <div class="col-12">
                                 <input type="number" class="form-control border-0 py-2" name="NUMBER OF GUESTS"
-                                    id="number" placeholder="Guest">
+                                    id="number" placeholder="Number Of Guests">
                             </div>
                             <input type="hidden" name="_next" value="https://flutterwave.com/pay/eelukbxlt5dq6">
                             <input type="hidden" name="_webhook"
@@ -402,14 +440,36 @@
                                 </select>
                             </div>
 
-                            <div class="col-12 col-xl-6">
-                                <input class="form-control border-0 py-2" placeholder="DROP-OFF DATE" type="date"
-                                    name="PICKUP DATE" id="quality-toDate">
+
+
+                            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+                            <div class="col-12">
+
+                                <input type="date" class="form-control border-0 py-2" id="dates"
+                                    name="Pickup And Drop-off" placeholder="Select Pickup And Drop-off date" readonly>
+
+
                             </div>
+                            <!-- Include Flatpickr JavaScript -->
+                            <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+                            <script>
+                                // Initialize Flatpickr
+                                flatpickr("#dates", {
+                                    mode: "multiple", // Allow multiple date selection
+                                    dateFormat: "Y-m-d", // Format for the selected dates
+                                    minDate: "today" // Disable past dates
+                                });
+                            </script>
+
+
+
+
+
 
                             <div class="col-12">
                                 <input type="number" class="form-control border-0 py-2" name="NUMBER OF GUESTS"
-                                    id="number" placeholder="Guest">
+                                    id="number" placeholder="Number Of Guest">
                             </div>
                             <input type="hidden" name="_next" value="https://flutterwave.com/pay/n8lwnr6k10ch">
                             <input type="hidden" name="_webhook"
@@ -428,6 +488,8 @@
             </div>
         </div>
     </div>
+
+
 
 
 
